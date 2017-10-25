@@ -34,7 +34,7 @@ def check(num):
 	count = 0
 
 	#Finding the learning
-	for f,b in zip(transactions,transactions1):
+	for f,b in zip(result_test,result_train):
 	    if(f != b):
 	        count+=1
 	    if count > 2:
